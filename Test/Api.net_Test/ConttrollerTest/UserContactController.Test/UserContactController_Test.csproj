@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="NUnit" Version="4.1.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="xunit" Version="2.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Src\api.net8.Api\api_net8.csproj" />
+    <ProjectReference Include="..\..\..\..\Src\api_.net8.Common\api_.net8.Common.csproj" />
+    <ProjectReference Include="..\..\..\..\Src\api_net8.Application\api_net8.Application.csproj" />
+    <ProjectReference Include="..\..\..\..\Src\api_net8.Domain\api_net8.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\Src\api_net8.Infrastructure\api_net8.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
